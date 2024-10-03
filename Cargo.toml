@@ -15,4 +15,6 @@ thiserror = "1.0.64"
 tokio-test = "0.4.4"
 
 [dev-dependencies]
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
 tokio = { version = "1.40.0", features = ["macros"] }

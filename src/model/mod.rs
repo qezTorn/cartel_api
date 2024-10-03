@@ -6,3 +6,6 @@ pub use advanced::AdvancedResponse;
 
 pub mod cooldowns;
 pub use cooldowns::CooldownResponse;
+
+pub mod battlestats;
+pub use battlestats::BattlestatsResponse;
