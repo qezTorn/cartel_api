@@ -1,0 +1,17 @@
+[package]
+name = "cartel_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.8", features = ["json"] }
+serde = "1.0.210"
+serde_derive = "1.0.210"
+serde_json = "1.0.128"
+thiserror = "1.0.64"
+
+[dev-dependancies]
+tokio-test = "0.4.4"
+
+[dev-dependencies]
+tokio = { version = "1.40.0", features = ["macros"] }
