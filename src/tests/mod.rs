@@ -4,4 +4,5 @@ mod battlestats;
 mod basic;
 mod cooldowns;
 mod status;
+mod range;
 

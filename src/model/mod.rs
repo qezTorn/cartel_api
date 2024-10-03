@@ -12,3 +12,11 @@ pub use battlestats::BattlestatsResponse;
 
 pub mod status;
 pub use status::StatusResponse;
+
+pub mod attacks;
+pub use attacks::AttacksResponse;
+pub use attacks::Attack;
+
+pub mod range;
+pub use range::RangeBuilder;
+pub use range::Range;
