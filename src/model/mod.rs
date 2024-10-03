@@ -9,3 +9,6 @@ pub use cooldowns::CooldownResponse;
 
 pub mod battlestats;
 pub use battlestats::BattlestatsResponse;
+
+pub mod status;
+pub use status::StatusResponse;
