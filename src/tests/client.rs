@@ -1,8 +1,12 @@
 use crate::Client;
+extern crate dotenv;
+use dotenv::dotenv;
+use std::env;
 
 
 #[test]
 fn client_test(){
-    let test = Client::new("C4FEB900-7405-49A2-85E");
-    println!("{}", test.api_key);
+    dotenv().ok();
+    let test_client = Client::new(env::var("qez_key").unwrap());
+    println!("{}", test_client.api_key);
 }
