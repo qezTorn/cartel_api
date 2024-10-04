@@ -4,7 +4,7 @@ use dotenv::dotenv;
 use std::env;
 
 #[tokio::test]
-async fn basic_test(){
+async fn cartel_test(){
     dotenv().ok();
     let test_client = Client::new(env::var("qez_key").unwrap());
     let qez = test_client.get_cartel().await;
