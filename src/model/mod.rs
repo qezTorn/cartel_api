@@ -20,3 +20,6 @@ pub use attacks::Attack;
 pub mod range;
 pub use range::RangeBuilder;
 pub use range::Range;
+
+pub mod cartel;
+pub use cartel::CartelResponse;

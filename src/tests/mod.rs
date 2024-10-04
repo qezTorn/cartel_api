@@ -1,5 +1,6 @@
 mod attacks;
 mod client;
+mod cartel;
 mod advanced;
 mod battlestats;
 mod basic;
