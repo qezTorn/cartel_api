@@ -17,17 +17,17 @@ pub struct Attack {
     #[serde(rename = "initiatorId")]
     pub initiator_id: i64,
     #[serde(rename = "initiatorCartelId")]
-    pub initiator_cartel_id: i64,
+    pub initiator_cartel_id: Option<i64>,
     #[serde(rename = "targetId")]
     pub target_id: i64,
     #[serde(rename = "targetCartelId")]
-    pub target_cartel_id: i64,
+    pub target_cartel_id: Option<i64>,
     #[serde(rename = "repGained")]
     pub rep_gained: f64,
     #[serde(rename = "cashMugged")]
     pub cash_mugged: i64,
     #[serde(rename = "fairFightMultiplier")]
-    pub fair_fight_multiplier: i64,
+    pub fair_fight_multiplier: f64,
     #[serde(rename = "attackType")]
     pub attack_type: String,
     #[serde(rename = "outcome")]
