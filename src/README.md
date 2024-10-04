@@ -23,5 +23,5 @@ Pending
 [ ] Graph   - Same as above not implemented yet
 
 [x] Cartel       - This should be easy havent done it yet though
-[ ] Inventory    - Should be easy
-[ ] Advanced Inv - Should be easy
+[x] Inventory    - Should be easy
+[x] Advanced Inv - Should be easy
