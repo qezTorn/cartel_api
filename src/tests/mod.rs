@@ -7,4 +7,6 @@ mod basic;
 mod cooldowns;
 mod status;
 mod range;
+mod inventory;
+mod inventory_advanced;
 

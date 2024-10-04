@@ -23,3 +23,9 @@ pub use range::Range;
 
 pub mod cartel;
 pub use cartel::CartelResponse;
+
+pub mod inventory;
+pub use inventory::Item;
+pub use inventory::ItemAdvanced;
+pub use inventory::InventoryResponse;
+pub use inventory::InventoryAdvancedResponse;

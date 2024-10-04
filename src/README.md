@@ -22,6 +22,6 @@ Pending
 [ ] Events  - Not yet implemented pending solving above problems
 [ ] Graph   - Same as above not implemented yet
 
-[ ] Cartel       - This should be easy havent done it yet though
+[x] Cartel       - This should be easy havent done it yet though
 [ ] Inventory    - Should be easy
 [ ] Advanced Inv - Should be easy
