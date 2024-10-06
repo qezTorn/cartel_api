@@ -14,6 +14,7 @@ pub struct ChatResponse {
 pub struct GlobalChat {
     pub id: i64,
     pub user_id: i64,
+    pub name: String,
     pub posted: String,
     pub message: String,
 }
@@ -23,6 +24,7 @@ pub struct GlobalChat {
 pub struct CartelChat {
     pub id: i64,
     pub user_id: i64,
+    pub name: String,
     pub posted: String,
     pub message: String,
 }
@@ -32,6 +34,7 @@ pub struct CartelChat {
 pub struct TradeChat {
     pub id: i64,
     pub user_id: i64,
+    pub name: String,
     pub posted: String,
     pub message: String,
 }
