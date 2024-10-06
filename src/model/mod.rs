@@ -29,3 +29,9 @@ pub use inventory::Item;
 pub use inventory::ItemAdvanced;
 pub use inventory::InventoryResponse;
 pub use inventory::InventoryAdvancedResponse;
+
+pub mod chat;
+pub use chat::ChatResponse;
+pub use chat::CartelChat;
+pub use chat::GlobalChat;
+pub use chat::TradeChat;

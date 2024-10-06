@@ -6,4 +6,5 @@ mod cartel;
 mod battlestats;
 mod inventory;
 mod status;
+mod chat;
 pub use crate::Client;

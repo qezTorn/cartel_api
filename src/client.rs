@@ -13,7 +13,7 @@ impl ClientBuilder{
     pub fn new() -> ClientBuilder{
         ClientBuilder{
             api_key: None,
-            api_url: "https://cartelempire.online/api/".to_owned(),
+            api_url: "https://cartelempire.online/api".to_owned(),
             reqwest_client_builder: ReqwestClientBuilder::new(),
         }
     }
