@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 description = "This crate attemps to provide a wrapper around the http://cartelempire.online/api"
 authors = ["qez"]
+repository = "https://github.com/qezTorn/cartel_api"
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 reqwest = { version = "0.12.8", features = ["json"] }
