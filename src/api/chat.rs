@@ -10,7 +10,6 @@ use crate::model::{ChatResponse, CartelChat, TradeChat, GlobalChat};
 impl Client {
     pub async fn get_chats(&self) -> Result<ChatResponse, Error>{
         let url = format!("{}/chat/?&key={}", self.api_url, self.api_key);
-        println!("{url:?}");
         let response = self.http_client.get(&url).send().await?;
         let chats: ChatResponse = response.json().await?;
         Ok(chats)
