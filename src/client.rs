@@ -1,5 +1,5 @@
 use reqwest::{
-    Client as ReqwestClient, ClientBuilder as ReqwestClientBuilder, Proxy, RequestBuilder,
+    Client as ReqwestClient, ClientBuilder as ReqwestClientBuilder, Proxy,
 };
 
 #[derive(Debug)]
