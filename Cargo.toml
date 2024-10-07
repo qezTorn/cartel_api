@@ -1,6 +1,6 @@
 [package]
 name = "cartel_api"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "This crate attemps to provide a wrapper around the http://cartelempire.online/api"
 authors = ["qez"]
