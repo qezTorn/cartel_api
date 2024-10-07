@@ -8,13 +8,21 @@ qez_key=[primary test key]
 velthir_key=[secondary test key]
 
 Finished endpoints/features
+
 [x] Client    - holds the api key and the http client
+
 [x] Basic     - returns and deseralizes the /api/type=basic
+
 [x] Advanced  - /api/type=advanced
+
 [x] Advanced  - /api/type=advanced
+
 [x] Battlestats - /api/type=battlestats
+
 [x] Cooldowns   - /api/type=cooldowns
+
 [x] Status      - /api/type=status
+
 
 Pending 
 [p] Range   - Partial working need to consider validation and some edge cases
